@@ -3,7 +3,7 @@
 namespace ProgrammerZamanNow\Belajar;
 
 class Customer{
-    function __construct(private string $name){}
+    function __construct(private string $name = "Guest"){}
 
     function sayHello($name): string
     {
