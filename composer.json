@@ -1,0 +1,18 @@
+{
+  "name": "programmerzamannow/php-composer-forlib",
+  "description": "Library Composer Hello",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Hendra"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ProgrammerZamanNow\\Belajar\\": "src/"
+    }
+  }
+}
